@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
 
       <Sidebar />
 
-      <main className="w-full" style={{ minHeight: "80vh" }}>
+      <main className="w-full bg-white" style={{ minHeight: "80vh" }}>
         {children}
         <ToastContainer />
       </main>

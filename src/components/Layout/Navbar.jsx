@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full bg-white sticky top-0 z-30 h-14 flex items-center justify-between px-10 shadow-lg max-md:px-2">
-        <div className="w-44 max-md:w-full overflow-hidden  h-10 flex  justify-between flex-row-reverse items-center">
+        <div className="w-44 max-md:w-full overflow-hidden  h-10 flex   items-center">
           <button
             onMouseDown={() => setTogler(!togler)}
             className="text-3xl md:hidden"

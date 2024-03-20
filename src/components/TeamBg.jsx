@@ -42,6 +42,8 @@ const TeamBg = ({ team, teamUrl }) => {
     toast.success("Team C");
   };
 
+  console.log(team);
+
   return (
     <>
       <div className="w-full rounded overflow-hidden flex justify-center mt-2">

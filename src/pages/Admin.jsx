@@ -39,6 +39,13 @@ const Admin = () => {
   return (
     <Layout>
       <div className="max-w-[360px] mx-auto h-auto ">
+        <div>
+          <div>
+            <h1>CSK</h1>
+            <h1>VS</h1>
+            <h1>RCB</h1>
+          </div>
+        </div>
         <div className="flex flex-wrap gap-2 justify-center">
           {iplTeam.map((e, index) => (
             <button

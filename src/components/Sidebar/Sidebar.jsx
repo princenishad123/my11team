@@ -46,7 +46,7 @@ const Sidebar = () => {
           ""
         )}
         {isAdmin?.email === import.meta.env.VITE_ADMIN_EMAIL ? (
-          <NavLink to={"/account"}>
+          <NavLink to={"/admin"}>
             <li className=" my-3 mx-2 px-1 font-semibold uppercase ">Admin</li>
           </NavLink>
         ) : (

@@ -94,6 +94,7 @@ const Home = () => {
   useEffect(() => {
     services.getFreeTeams().then((res) => {
       setTeam(res);
+      console.log(res);
     });
   }, []);
 
@@ -135,12 +136,12 @@ const Home = () => {
       </div>
 
       {/* winners */}
-      <div className="relative rounded bg-red-500 overflow-hidden h-10 mx-auto w-[360px] max-sm:w-11/12 skew-y-2">
+      {/* <div className="relative rounded bg-red-500 overflow-hidden h-10 mx-auto w-[360px] max-sm:w-11/12 skew-y-2">
         <div className="absolute skew-y-3 h-10 top-0  shineWinners"></div>
         <h1 className="text-xl py-1 mx-auto text-center rounded font-semibold text-white ">
           Winners in CSK vs RCB
         </h1>
-      </div>
+      </div> */}
     </Layout>
   );
 };

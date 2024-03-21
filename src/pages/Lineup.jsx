@@ -20,8 +20,8 @@ const Lineup = () => {
       return setId(a);
       // console.log(a);
     }
-    if (team?.length >= 22) {
-      return toast.warn("22 teams selected");
+    if (team?.length >= 11) {
+      return toast.warn(`${id.length} Teams Selected`);
     }
     setTeam([...team, data]);
 
@@ -96,9 +96,12 @@ const Lineup = () => {
           </div>
         </div>
 
-        <div className="w-full my-2 flex  text-white justify-between gap-3">
-          <button className="bg-green-500" onClick={previewTeam}>
-            Preview Team
+        <div className="w-full my-2 flex  text-white justify-center gap-3">
+          <button
+            className="bg-green-500 py-1 px-4 rounded-full"
+            onClick={previewTeam}
+          >
+            Preview Team ({id.length})
           </button>
         </div>
       </div>

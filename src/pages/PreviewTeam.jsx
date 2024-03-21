@@ -53,13 +53,13 @@ const PreviewTeam = () => {
       <div className="max-w-[360px] sticky bottom-2 flex justify-evenly">
         <button
           onClick={uploadFreeTeam}
-          className="px-2 rounded bg-blue-600 text-white"
+          className="px-2 rounded py-1 bg-blue-600 text-white"
         >
           Save Free Team
         </button>
         <button
           onClick={uploadVipTeam}
-          className="px-2 rounded bg-red-600 text-white"
+          className="px-2 rounded py-1 bg-red-600 text-white"
         >
           Save VIP Team
         </button>

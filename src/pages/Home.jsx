@@ -6,6 +6,8 @@ import TeamBg from "../components/TeamBg";
 import { NavLink } from "react-router-dom";
 import services from "../firebase/Services";
 import Loader from "../components/Loader";
+import { Link } from "react-router-dom";
+// import myapp from "../assets/app-release.apk"
 
 const Home = () => {
   let [currentUser, setCurrentUser] = useState(
@@ -98,6 +100,11 @@ const Home = () => {
     });
   }, []);
 
+  // const handleDownload = () => {
+  //   // const appFilePath = myapp;
+  //   // window.location.href = appFilePath;
+  // };
+
   return (
     <Layout>
       <FirstPage />
@@ -142,6 +149,15 @@ const Home = () => {
           Winners in CSK vs RCB
         </h1>
       </div> */}
+      <div className="w-full flex justify-center mt-4">
+        <a
+          href="/src/assets/app-release.apk"
+          download
+          className="max-w-[300px] py-1 px-4 rounded mx-auto bg-red-600 text-white"
+        >
+          Download Android App
+        </a>
+      </div>
     </Layout>
   );
 };

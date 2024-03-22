@@ -160,15 +160,16 @@ const Home = () => {
           Winners in CSK vs RCB
         </h1>
       </div> */}
-      {/* <div className="w-full flex justify-center mt-4">
+
+      <div className="w-full flex justify-center mt-4">
         <a
-          href="/src/assets/app-release.apk"
-          download={true}
+          href="https://www.mediafire.com/file/gjc6zi1ddocrd17/app-release.apk/file"
+          target="_blank"
           className="max-w-[300px] py-1 px-4 rounded mx-auto bg-red-600 text-white"
         >
           Download Android App
         </a>
-      </div> */}
+      </div>
     </Layout>
   );
 };

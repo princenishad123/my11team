@@ -8,6 +8,27 @@
   </head>
   <body>
     <div id="root"></div>
+    <div
+      style="display: none"
+      id="downloadBtn"
+      className="w-full flex justify-center mt-4"
+    >
+      <a
+        href="/src/assets/app-release.apk"
+        download="{true}"
+        className="max-w-[300px] py-1 px-4 rounded mx-auto bg-red-600 text-white"
+      >
+        Download Android App
+      </a>
+    </div>
+
+    <script>
+      window.onload = () => {
+        let downloadBtn = document.getElementById("downloadBtn");
+
+        downloadBtn.style.display = "block";
+      };
+    </script>
 
     <script type="text/javascript">
       atOptions = {

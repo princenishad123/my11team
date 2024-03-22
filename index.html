@@ -9,12 +9,11 @@
   <body>
     <div id="root"></div>
     <div
-      style="display: none"
+      style="display: none; width: 100%; justify-content: center"
       id="downloadBtn"
-      className="w-full flex justify-center mt-4"
     >
       <a
-        href="/src/assets/app-release.apk"
+        href="/public/app-release.apk"
         download
         style="
           max-width: 300px;
@@ -32,7 +31,7 @@
       window.onload = () => {
         let downloadBtn = document.getElementById("downloadBtn");
 
-        downloadBtn.style.display = "block";
+        downloadBtn.style.display = "flex";
       };
     </script>
 

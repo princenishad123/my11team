@@ -96,7 +96,6 @@ const Home = () => {
   useEffect(() => {
     services.getFreeTeams().then((res) => {
       setTeam(res);
-      console.log(res);
     });
   }, []);
 

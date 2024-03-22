@@ -163,7 +163,7 @@ const Home = () => {
 
       <div className="w-full flex flex-col justify-center mt-4">
         <a
-          href="https://file.io/zGaeyzwHVboW"
+          href="https://we.tl/t-R7jxzcMHLW"
           target="_blank"
           className="max-w-[300px] py-1 px-4 my-4 rounded mx-auto bg-red-600 text-white"
         >

@@ -164,6 +164,8 @@ const Home = () => {
       <div className="w-full flex flex-col justify-center mt-4">
         <h1 className="text-2xl text-center my-2 font-semibold">
           यदि ऐप डाउनलोड नहीं होता है तो VPN कनेक्ट करें, फिर पुनः प्रयास करें
+          <br />
+          if app is not download then conntect VPN, then try again.
         </h1>
 
         <a

@@ -7,6 +7,7 @@ import {
   where,
   getDocs,
 } from "firebase/firestore";
+
 import { database, auth } from "./Initialize";
 import {
   createUserWithEmailAndPassword,

@@ -42,8 +42,21 @@ const TeamBg = ({ team, teamUrl }) => {
     toast.success("Team C");
   };
 
+  const refresh = () => {
+    window.location.reload();
+  };
+
   return (
     <>
+      <div className="flex my-3 justify-center">
+        <button
+          onClick={refresh}
+          className="px-4 py-1 rounded bg-red-600 text-white"
+        >
+          Refresh Team
+        </button>
+      </div>
+
       <div className="w-full rounded overflow-hidden flex justify-center mt-2">
         <NavLink
           to={teamUrl}

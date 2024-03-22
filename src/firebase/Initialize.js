@@ -9,6 +9,7 @@ const firebaseConfig = {
   storageBucket: import.meta.env.VITE_STORAGE_BUCKET_ID,
   messagingSenderId: import.meta.env.VITE_MESSANGING_SENDER_ID,
   appId: import.meta.env.VITE_APP_ID,
+  databaseURL: import.meta.env.VITE_DB_URL,
 };
 
 const app = initializeApp(firebaseConfig);

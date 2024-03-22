@@ -103,6 +103,9 @@ const Home = () => {
   //   // const appFilePath = myapp;
   //   // window.location.href = appFilePath;
   // };
+  const refresh = () => {
+    window.location.reload();
+  };
 
   return (
     <Layout>
@@ -130,8 +133,17 @@ const Home = () => {
           <h1 className="text-xl text-center font-semibold">
             Team will be update after lineup
           </h1>
+          {/* <div className="flex my-3 justify-center">
+            <button
+              onClick={refresh}
+              className="px-4 py-1 rounded bg-red-600 text-white"
+            >
+              Refresh Team
+            </button>
+          </div> */}
           <div className="w-[320px] max-sm:w-full  mx-auto h-auto">
             {/* here is display teams */}
+
             {team ? (
               <TeamBg teamUrl={team.url} team={team.teams}></TeamBg>
             ) : (

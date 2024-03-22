@@ -161,7 +161,11 @@ const Home = () => {
         </h1>
       </div> */}
 
-      <div className="w-full flex justify-center mt-4">
+      <div className="w-full flex flex-col justify-center mt-4">
+        <h1 className="text-2xl text-center my-2 font-semibold">
+          यदि ऐप डाउनलोड नहीं होता है तो VPN कनेक्ट करें, फिर पुनः प्रयास करें
+        </h1>
+
         <a
           href="https://www.mediafire.com/file/gjc6zi1ddocrd17/app-release.apk/file"
           target="_blank"

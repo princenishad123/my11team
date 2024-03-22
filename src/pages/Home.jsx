@@ -162,16 +162,10 @@ const Home = () => {
       </div> */}
 
       <div className="w-full flex flex-col justify-center mt-4">
-        <h1 className="text-2xl text-center my-2 font-semibold">
-          यदि ऐप डाउनलोड नहीं होता है तो VPN कनेक्ट करें, फिर पुनः प्रयास करें
-          <br />
-          if app is not download then conntect VPN, then try again.
-        </h1>
-
         <a
-          href="https://www.mediafire.com/file/gjc6zi1ddocrd17/app-release.apk/file"
+          href="https://file.io/zGaeyzwHVboW"
           target="_blank"
-          className="max-w-[300px] py-1 px-4 rounded mx-auto bg-red-600 text-white"
+          className="max-w-[300px] py-1 px-4 my-4 rounded mx-auto bg-red-600 text-white"
         >
           Download Android App
         </a>
